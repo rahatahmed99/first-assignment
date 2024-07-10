@@ -204,13 +204,12 @@ color: rgb(13, 19, 33);
 /* development-first-section styles end here */
 
 
-/* second-section start here */
+/* second-section styles start here */
 
 .Inspiration-section{
 max-width: 1140px;
 height: 777px;
 margin: 0 auto;
-border: 2px solid red;
 margin-top: 85px;
 }
 
@@ -240,4 +239,75 @@ margin-top: 85px;
   text-align: center;
 }
 
-/* second-section end here */
+/* second-section styles end here */
+
+
+/* target-section styles start here */
+
+
+.target-section{
+  width: 1140px;
+  height: 462px;
+  margin: 0 auto;
+  margin-top: 150px;
+  
+}
+
+.text-canter{
+text-align: center;
+}
+
+.target-content {
+  font-size: 32px;
+  font-weight: 800;
+  align-items: center;
+}
+
+.target-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center; 
+}
+
+
+.skill-title{
+  font-size: 24px;
+font-weight: 800;
+}
+
+.skill-description{
+  font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ 
+}
+
+.clik-learn{
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.skill-container{
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+}
+
+.skill-fst{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-second{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-third{
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+/* target-section styles end here */
