@@ -42,7 +42,6 @@ nav ul li{
   max-width: 1440px;
   height: 652px;
   margin: 0 auto;
-  border: 2px solid red;
   background-image: url(/assets/Hero-bg.png);
   
 }
@@ -94,7 +93,6 @@ text-align: center;
   max-width: 1140px;
   height: 1395px;
   margin: 0 auto;
-  border: 2px solid red ;
   margin-top: 75px;
   padding: 80px 97px 80px 97px;
   border-radius: 16px;
@@ -139,8 +137,8 @@ font-weight: 700;
 .Development-content p{
   color: rgb(13, 19, 33);
   font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+  font-weight: 400;
+  line-height: 26px;
 
 }
 
@@ -204,3 +202,42 @@ color: rgb(13, 19, 33);
 
 
 /* development-first-section styles end here */
+
+
+/* second-section start here */
+
+.Inspiration-section{
+max-width: 1140px;
+height: 777px;
+margin: 0 auto;
+border: 2px solid red;
+margin-top: 85px;
+}
+
+
+.Inspiration-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  margin-bottom: 80px;
+  
+}
+
+
+.Inspiration-content h3{
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.Inspiration-content p{
+ 
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* second-section end here */
