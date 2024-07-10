@@ -51,6 +51,7 @@ nav ul li{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  
 }
 
 .banner-content h1{
@@ -378,3 +379,31 @@ text-align: center;
 /* Last-section style end here */
 
 /* main part styles end here */
+
+
+/* footer styles start here */
+.footer-contaner{
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  padding: 32px 150px 32px 150px;
+  margin-bottom: 0px;
+}
+
+.icons{
+  margin-top: 32px;
+  
+}
+.footer-content {
+  width: 1140px;
+  height: 36px;
+}
+
+.footer-content h6{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer styles end here */
