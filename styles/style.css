@@ -84,7 +84,7 @@ text-align: center;
 /* Banner styles end hear */
 
 
-/* development-first-section styles start here */
+/* main part styles start here */
 
 
 /* Development-first-content start here */
@@ -311,3 +311,70 @@ font-weight: 800;
   background: rgba(255, 223, 0, 0.05);
 }
 /* target-section styles end here */
+
+
+/* Last-section style start here */
+
+.Last-section{
+max-width: 1140px;
+height: 314px;
+margin: 0 auto;
+margin-top: 50px;
+background-color:rgba(0, 0, 0, 0.5);
+background-image: url(/assets/handshake.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
+}
+
+.Last-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Last-section-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  color:rgb(255, 255, 255)
+  
+}
+
+.Last-section-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.feedback{
+  width: 548px;
+height: 57px;
+margin-top: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+font-size: 18px;
+font-weight: 400;
+}
+
+.submit{
+width: 120px;
+height: 58px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+
+}
+
+.comments{
+text-align: center;
+}
+
+/* Last-section style end here */
+
+/* main part styles end here */
