@@ -39,7 +39,7 @@ nav ul li{
 
 /* Banner styles start hear */
 .banner{
-  width: 1440px;
+  max-width: 1440px;
   height: 652px;
   margin: 0 auto;
   border: 2px solid red;
@@ -83,3 +83,124 @@ text-align: center;
 }
 
 /* Banner styles end hear */
+
+
+/* development-first-section styles start here */
+
+
+/* Development-first-content start here */
+
+.development-section{
+  max-width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  border: 2px solid red ;
+  margin-top: 75px;
+  padding: 80px 97px 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.development-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+.development-title h2{
+ font-size: 32px;
+ font-weight: 800;
+}
+
+.development-title p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.Development-first-content{
+  margin-top: 48px;
+  display: flex;
+ justify-content: space-between;
+ padding: 48px;
+ 
+}
+.Development-content{
+  max-width: 477px;
+  height: 220;
+}
+.Development-content h3{
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+
+}
+
+.Development-content p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+
+.content-profile{
+  width: 265px;
+  height: 220px;
+}
+
+.btn-learn{
+width: 150px;
+height: 48px;
+
+}
+
+.btn-learn{
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+}
+
+.btn-learn{
+  font-size: 20px;
+font-weight: 600;
+color: rgb(13, 19, 33);
+}
+
+
+/* Development-first-content end here */
+
+
+/* Development-second-content start here */
+
+
+.Development-second-content{
+  margin-top: 48px;
+  display: flex;
+  padding: 48px;
+}
+
+.content-profile-two{
+  width: 265px;
+  height: 220px;
+  margin: 0px 32px;
+}
+
+
+/* Development-second-content end here */
+
+
+/* Development-third-content start here */
+
+
+.Development-third-content{
+  margin-top: 48px;
+  display: flex;
+ justify-content: space-between;
+ padding: 48px;
+}
+
+/* Development-third-content end here */
+
+
+/* development-first-section styles end here */
